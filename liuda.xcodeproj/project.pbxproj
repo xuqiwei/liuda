@@ -15,6 +15,26 @@
 		BA051881229C064D0045C487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05187F229C064D0045C487 /* LaunchScreen.storyboard */; };
 		BA05188C229C064D0045C487 /* liudaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05188B229C064D0045C487 /* liudaTests.swift */; };
 		BA051897229C064D0045C487 /* liudaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA051896229C064D0045C487 /* liudaUITests.swift */; };
+		BAF4242A229D3C1200FD1C47 /* ViewControllerBackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42425229D3C1200FD1C47 /* ViewControllerBackManager.swift */; };
+		BAF4242B229D3C1200FD1C47 /* LLWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42426229D3C1200FD1C47 /* LLWebViewController.swift */; };
+		BAF4242C229D3C1200FD1C47 /* LLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42427229D3C1200FD1C47 /* LLViewController.swift */; };
+		BAF4242D229D3C1200FD1C47 /* LLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42428229D3C1200FD1C47 /* LLNavigationController.swift */; };
+		BAF4242E229D3C1200FD1C47 /* LLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42429229D3C1200FD1C47 /* LLTabBarController.swift */; };
+		BAF42433229D3C9000FD1C47 /* Define_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42430229D3C9000FD1C47 /* Define_UIImage.swift */; };
+		BAF42434229D3C9000FD1C47 /* MacroTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42431229D3C9000FD1C47 /* MacroTool.swift */; };
+		BAF42435229D3C9000FD1C47 /* Define_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42432229D3C9000FD1C47 /* Define_UIColor.swift */; };
+		BAF42444229D3D1100FD1C47 /* TimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42437229D3D1100FD1C47 /* TimeUtil.swift */; };
+		BAF42445229D3D1100FD1C47 /* NetParamUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42439229D3D1100FD1C47 /* NetParamUtil.swift */; };
+		BAF42446229D3D1100FD1C47 /* NetworkingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4243A229D3D1100FD1C47 /* NetworkingUtil.swift */; };
+		BAF42447229D3D1100FD1C47 /* Extension_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4243C229D3D1100FD1C47 /* Extension_UIImage.swift */; };
+		BAF42448229D3D1100FD1C47 /* Extension_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4243D229D3D1100FD1C47 /* Extension_UIColor.swift */; };
+		BAF42449229D3D1100FD1C47 /* Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4243E229D3D1100FD1C47 /* Extension_String.swift */; };
+		BAF4244A229D3D1100FD1C47 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42440229D3D1100FD1C47 /* BaseModel.swift */; };
+		BAF4244B229D3D1100FD1C47 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42442229D3D1100FD1C47 /* ProgressHUD.swift */; };
+		BAF42452229D445900FD1C47 /* LLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42451229D445900FD1C47 /* LLHomeViewController.swift */; };
+		BAF42454229D447B00FD1C47 /* LLTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42453229D447B00FD1C47 /* LLTaskViewController.swift */; };
+		BAF42456229D449F00FD1C47 /* LLInviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42455229D449F00FD1C47 /* LLInviteViewController.swift */; };
+		BAF42458229D44B000FD1C47 /* LLMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF42457229D44B000FD1C47 /* LLMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,27 @@
 		BA051892229C064D0045C487 /* liudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA051896229C064D0045C487 /* liudaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liudaUITests.swift; sourceTree = "<group>"; };
 		BA051898229C064D0045C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF42425229D3C1200FD1C47 /* ViewControllerBackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBackManager.swift; sourceTree = "<group>"; };
+		BAF42426229D3C1200FD1C47 /* LLWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLWebViewController.swift; sourceTree = "<group>"; };
+		BAF42427229D3C1200FD1C47 /* LLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLViewController.swift; sourceTree = "<group>"; };
+		BAF42428229D3C1200FD1C47 /* LLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLNavigationController.swift; sourceTree = "<group>"; };
+		BAF42429229D3C1200FD1C47 /* LLTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLTabBarController.swift; sourceTree = "<group>"; };
+		BAF42430229D3C9000FD1C47 /* Define_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define_UIImage.swift; sourceTree = "<group>"; };
+		BAF42431229D3C9000FD1C47 /* MacroTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroTool.swift; sourceTree = "<group>"; };
+		BAF42432229D3C9000FD1C47 /* Define_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define_UIColor.swift; sourceTree = "<group>"; };
+		BAF42437229D3D1100FD1C47 /* TimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtil.swift; sourceTree = "<group>"; };
+		BAF42439229D3D1100FD1C47 /* NetParamUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetParamUtil.swift; sourceTree = "<group>"; };
+		BAF4243A229D3D1100FD1C47 /* NetworkingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingUtil.swift; sourceTree = "<group>"; };
+		BAF4243C229D3D1100FD1C47 /* Extension_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_UIImage.swift; sourceTree = "<group>"; };
+		BAF4243D229D3D1100FD1C47 /* Extension_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_UIColor.swift; sourceTree = "<group>"; };
+		BAF4243E229D3D1100FD1C47 /* Extension_String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_String.swift; sourceTree = "<group>"; };
+		BAF42440229D3D1100FD1C47 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		BAF42442229D3D1100FD1C47 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		BAF4244C229D3DEF00FD1C47 /* liuda-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "liuda-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAF42451229D445900FD1C47 /* LLHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLHomeViewController.swift; sourceTree = "<group>"; };
+		BAF42453229D447B00FD1C47 /* LLTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLTaskViewController.swift; sourceTree = "<group>"; };
+		BAF42455229D449F00FD1C47 /* LLInviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLInviteViewController.swift; sourceTree = "<group>"; };
+		BAF42457229D44B000FD1C47 /* LLMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +186,133 @@
 		BAF42421229D33F500FD1C47 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				BAF42422229D3B7D00FD1C47 /* APP */,
+				BAF42423229D3B8C00FD1C47 /* Frameworks */,
 			);
 			path = Project;
+			sourceTree = "<group>";
+		};
+		BAF42422229D3B7D00FD1C47 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				BAF4244D229D437D00FD1C47 /* Home */,
+				BAF4244E229D439000FD1C47 /* Task */,
+				BAF4244F229D439C00FD1C47 /* Invite */,
+				BAF42450229D43B900FD1C47 /* Mine */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		BAF42423229D3B8C00FD1C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF4243B229D3D1100FD1C47 /* extension */,
+				BAF4243F229D3D1100FD1C47 /* model */,
+				BAF42438229D3D1100FD1C47 /* net */,
+				BAF42441229D3D1100FD1C47 /* thirdFramework */,
+				BAF42436229D3D1100FD1C47 /* Utils */,
+				BAF4242F229D3C9000FD1C47 /* Constants */,
+				BAF42424229D3B9E00FD1C47 /* RootViewController */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF42424229D3B9E00FD1C47 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42428229D3C1200FD1C47 /* LLNavigationController.swift */,
+				BAF42429229D3C1200FD1C47 /* LLTabBarController.swift */,
+				BAF42427229D3C1200FD1C47 /* LLViewController.swift */,
+				BAF42426229D3C1200FD1C47 /* LLWebViewController.swift */,
+				BAF42425229D3C1200FD1C47 /* ViewControllerBackManager.swift */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		BAF4242F229D3C9000FD1C47 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42431229D3C9000FD1C47 /* MacroTool.swift */,
+				BAF42430229D3C9000FD1C47 /* Define_UIImage.swift */,
+				BAF42432229D3C9000FD1C47 /* Define_UIColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BAF42436229D3D1100FD1C47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42437229D3D1100FD1C47 /* TimeUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BAF42438229D3D1100FD1C47 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42439229D3D1100FD1C47 /* NetParamUtil.swift */,
+				BAF4243A229D3D1100FD1C47 /* NetworkingUtil.swift */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		BAF4243B229D3D1100FD1C47 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				BAF4243C229D3D1100FD1C47 /* Extension_UIImage.swift */,
+				BAF4243D229D3D1100FD1C47 /* Extension_UIColor.swift */,
+				BAF4243E229D3D1100FD1C47 /* Extension_String.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		BAF4243F229D3D1100FD1C47 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42440229D3D1100FD1C47 /* BaseModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BAF42441229D3D1100FD1C47 /* thirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BAF4244C229D3DEF00FD1C47 /* liuda-Bridging-Header.h */,
+				BAF42442229D3D1100FD1C47 /* ProgressHUD.swift */,
+			);
+			path = thirdFramework;
+			sourceTree = "<group>";
+		};
+		BAF4244D229D437D00FD1C47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42451229D445900FD1C47 /* LLHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BAF4244E229D439000FD1C47 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42453229D447B00FD1C47 /* LLTaskViewController.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		BAF4244F229D439C00FD1C47 /* Invite */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42455229D449F00FD1C47 /* LLInviteViewController.swift */,
+			);
+			path = Invite;
+			sourceTree = "<group>";
+		};
+		BAF42450229D43B900FD1C47 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BAF42457229D44B000FD1C47 /* LLMineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		E12EC1041138516378367D25 /* Frameworks */ = {
@@ -337,8 +503,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF42435229D3C9000FD1C47 /* Define_UIColor.swift in Sources */,
+				BAF42434229D3C9000FD1C47 /* MacroTool.swift in Sources */,
+				BAF4244B229D3D1100FD1C47 /* ProgressHUD.swift in Sources */,
+				BAF42444229D3D1100FD1C47 /* TimeUtil.swift in Sources */,
+				BAF42445229D3D1100FD1C47 /* NetParamUtil.swift in Sources */,
+				BAF42449229D3D1100FD1C47 /* Extension_String.swift in Sources */,
+				BAF4242C229D3C1200FD1C47 /* LLViewController.swift in Sources */,
+				BAF42452229D445900FD1C47 /* LLHomeViewController.swift in Sources */,
+				BAF4242D229D3C1200FD1C47 /* LLNavigationController.swift in Sources */,
+				BAF42433229D3C9000FD1C47 /* Define_UIImage.swift in Sources */,
+				BAF4242A229D3C1200FD1C47 /* ViewControllerBackManager.swift in Sources */,
+				BAF42454229D447B00FD1C47 /* LLTaskViewController.swift in Sources */,
+				BAF42446229D3D1100FD1C47 /* NetworkingUtil.swift in Sources */,
+				BAF42447229D3D1100FD1C47 /* Extension_UIImage.swift in Sources */,
+				BAF42456229D449F00FD1C47 /* LLInviteViewController.swift in Sources */,
+				BAF4244A229D3D1100FD1C47 /* BaseModel.swift in Sources */,
+				BAF4242E229D3C1200FD1C47 /* LLTabBarController.swift in Sources */,
+				BAF4242B229D3C1200FD1C47 /* LLWebViewController.swift in Sources */,
 				BA051879229C064C0045C487 /* ViewController.swift in Sources */,
+				BAF42448229D3D1100FD1C47 /* Extension_UIColor.swift in Sources */,
 				BA051877229C064C0045C487 /* AppDelegate.swift in Sources */,
+				BAF42458229D44B000FD1C47 /* LLMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +711,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inmyshow.liuda.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xuqiwei/Desktop/liuda_demo/liuda_swift/Project/Frameworks/thirdFramework/liuda-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -546,6 +733,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inmyshow.liuda.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/xuqiwei/Desktop/liuda_demo/liuda_swift/Project/Frameworks/thirdFramework/liuda-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
