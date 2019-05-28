@@ -85,13 +85,13 @@
 				38436D460806F07BBCAC0FCC /* Pods-liuda.debug.xcconfig */,
 				6EFF40325F6193CD43A77082 /* Pods-liuda.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BA05186A229C064C0045C487 = {
 			isa = PBXGroup;
 			children = (
+				BAF42421229D33F500FD1C47 /* Project */,
 				BA051875229C064C0045C487 /* liuda */,
 				BA05188A229C064D0045C487 /* liudaTests */,
 				BA051895229C064D0045C487 /* liudaUITests */,
@@ -140,6 +140,13 @@
 				BA051898229C064D0045C487 /* Info.plist */,
 			);
 			path = liudaUITests;
+			sourceTree = "<group>";
+		};
+		BAF42421229D33F500FD1C47 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project;
 			sourceTree = "<group>";
 		};
 		E12EC1041138516378367D25 /* Frameworks */ = {
