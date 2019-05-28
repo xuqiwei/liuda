@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// 邀请页
 class LLInviteViewController: LLViewController {
 
     override func viewDidLoad() {
