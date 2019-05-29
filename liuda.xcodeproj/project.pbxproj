@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B545B8817FCD3B92C3F09B9B /* libPods-liuda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7098F80FEB117D791C2358 /* libPods-liuda.a */; };
 		BA051877229C064C0045C487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA051876229C064C0045C487 /* AppDelegate.swift */; };
-		BA051879229C064C0045C487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA051878229C064C0045C487 /* ViewController.swift */; };
 		BA05187C229C064C0045C487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05187A229C064C0045C487 /* Main.storyboard */; };
 		BA05187E229C064D0045C487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05187D229C064D0045C487 /* Assets.xcassets */; };
 		BA051881229C064D0045C487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05187F229C064D0045C487 /* LaunchScreen.storyboard */; };
@@ -60,7 +59,6 @@
 		6EFF40325F6193CD43A77082 /* Pods-liuda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liuda.release.xcconfig"; path = "Target Support Files/Pods-liuda/Pods-liuda.release.xcconfig"; sourceTree = "<group>"; };
 		BA051873229C064C0045C487 /* liuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA051876229C064C0045C487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA051878229C064C0045C487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA05187B229C064C0045C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA05187D229C064D0045C487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA051880229C064D0045C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				BA051876229C064C0045C487 /* AppDelegate.swift */,
-				BA051878229C064C0045C487 /* ViewController.swift */,
 				BA05187A229C064C0045C487 /* Main.storyboard */,
 				BA05187D229C064D0045C487 /* Assets.xcassets */,
 				BA05187F229C064D0045C487 /* LaunchScreen.storyboard */,
@@ -521,7 +518,6 @@
 				BAF4244A229D3D1100FD1C47 /* BaseModel.swift in Sources */,
 				BAF4242E229D3C1200FD1C47 /* LLTabBarController.swift in Sources */,
 				BAF4242B229D3C1200FD1C47 /* LLWebViewController.swift in Sources */,
-				BA051879229C064C0045C487 /* ViewController.swift in Sources */,
 				BAF42448229D3D1100FD1C47 /* Extension_UIColor.swift in Sources */,
 				BA051877229C064C0045C487 /* AppDelegate.swift in Sources */,
 				BAF42458229D44B000FD1C47 /* LLMineViewController.swift in Sources */,
