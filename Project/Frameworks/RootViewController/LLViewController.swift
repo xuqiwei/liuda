@@ -11,6 +11,9 @@ import UIKit
 /// 自定义父类ViewController
 class LLViewController: UIViewController {
     
+    public var hideNavigation : Bool = false
+    public var hideNavigationAnimate : Bool = true
+    
     lazy var backManager : ViewControllerBackManager = {
         return ViewControllerBackManager.init(self)
     }()
@@ -25,9 +28,13 @@ class LLViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        // 一级界面不显示自定义返回按钮
         if self.navigationController?.viewControllers.count ?? 0 > 1 {
             backManager.getBackBarButtonItem()
         }
+        
+        self.navigationController?.setNavigationBarHidden(self.hideNavigation, animated: self.hideNavigationAnimate)
     }
 
     /*
